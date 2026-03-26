@@ -34,7 +34,7 @@ export default function Register() {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-6">
       <div className="max-w-md w-full bg-white rounded-[2.5rem] shadow-xl p-10 space-y-6">
         <div className="text-center">
-          <h1 className="text-2xl font-black italic uppercase tracking-tighter">Equity_Edge</h1>
+          <h1 className="text-2xl font-black italic uppercase tracking-tighter">Portfolio Tracker</h1>
           <p className="text-[10px] font-bold text-slate-400 uppercase">Create your account</p>
         </div>
 

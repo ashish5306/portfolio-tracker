@@ -86,7 +86,7 @@ export default function DashboardPage() {
       <aside className={`bg-white border-r border-slate-200 transition-all duration-300 flex flex-col ${isSidebarOpen ? 'w-64' : 'w-20'}`}>
         <div className="h-20 flex items-center px-6 border-b border-slate-50 shrink-0">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-black italic shadow-lg shrink-0">E</div>
-          {isSidebarOpen && <span className="ml-3 font-black text-xl italic tracking-tighter uppercase shrink-0">Equity_Edge</span>}
+          {isSidebarOpen && <span className="ml-3 font-black text-xl italic tracking-tighter uppercase shrink-0">PT Tracker</span>}
         </div>
         
         <nav className="flex-1 p-4 space-y-2 overflow-hidden mt-4">
@@ -137,8 +137,8 @@ export default function DashboardPage() {
           ) : (
             <div className="max-w-7xl mx-auto space-y-12 animate-in fade-in duration-700">
               <div className="space-y-1">
-                <h1 className="text-5xl font-black italic uppercase tracking-tighter text-slate-900 leading-none">Global Funds</h1>
-                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">Institutional Asset Control Dashboard</p>
+                <h1 className="text-5xl font-black italic uppercase tracking-tighter text-slate-900 leading-none">All Portfolio</h1>
+                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">InstPitutional Asset Control Dashboard</p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">

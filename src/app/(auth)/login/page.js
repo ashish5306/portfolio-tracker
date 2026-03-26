@@ -49,7 +49,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-6">
       <div className="max-w-md w-full bg-white rounded-[2.5rem] shadow-xl p-10 space-y-6 text-center border border-slate-100">
-        <h1 className="text-2xl font-black italic uppercase tracking-tighter text-slate-900">Equity_Edge</h1>
+        <h1 className="text-2xl font-black italic uppercase tracking-tighter text-slate-900">Portfolio Tracker</h1>
         
         <form onSubmit={handleLogin} className="space-y-4 text-left">
           <input 
